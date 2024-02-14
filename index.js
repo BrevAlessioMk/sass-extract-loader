@@ -1,6 +1,7 @@
 const sassExtract = require('sass-extract');
 const loaderUtils = require('loader-utils');
 const path = require('path');
+const sass = require('sass');
 
 function normalizeDependency(dep) {
   if(path.posix.isAbsolute(dep)) {
@@ -19,7 +20,7 @@ module.exports = exports = function sassExtractLoader(content) {
   const extractOptions = { plugins };
 
   if (query.implementation) {
-    extractOptions.implementation = query.implementation;
+    extractOptions.implementation = sass;
   }
 
   return sassExtract.render(Object.assign({}, query, { file: this.resourcePath }), extractOptions)
