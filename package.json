@@ -35,7 +35,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "mocha": "^4.0.1",
     "webpack": "^3.9.1",
-    "sass": "^1.70.0",
+    "sass": "^1.70.0"
   },
   "config": {
     "commitizen": {
