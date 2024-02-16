@@ -1,6 +1,6 @@
 {
-  "name": "sass-extract-loader",
-  "version": "1.1.0",
+  "name": "@motork/sass-extract-loader",
+  "version": "1.0.0",
   "description": "Webpack loader for sass-extract. Extract structured variables when importing sass files.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
   },
   "repository": "jgranstrom/sass-extract-loader",
-  "author": "John Granström <granstrom.john@gmail.com>",
+  "author": "Alessio Breviglieri <alessio.breviglieri@motork.io>",
   "keywords": [
     "webpack",
     "loader",
@@ -26,16 +26,16 @@
     "node": ">=4"
   },
   "peerDependencies": {
-    "webpack": "^3 || ^2 || ^2.2.0-rc.0 || ^2.1.0-beta || ^1.12.6",
-    "sass-extract": "^1.0.1 || ^2.0.0 || ^3.0.0"
+    "sass-extract": "^1.0.1 || ^2.0.0 || ^3.0.0",
+    "webpack": "^3 || ^2 || ^2.2.0-rc.0 || ^2.1.0-beta || ^1.12.6"
   },
   "devDependencies": {
     "bluebird": "^3.4.7",
     "chai": "^4.1.2",
     "cz-conventional-changelog": "^2.1.0",
     "mocha": "^4.0.1",
-    "webpack": "^3.9.1",
-    "sass": "^1.70.0"
+    "sass": "^1.70.0",
+    "webpack": "^3.9.1"
   },
   "config": {
     "commitizen": {
